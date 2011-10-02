@@ -12,8 +12,8 @@
 			</Offset>
 		</Anchor>
 	</Anchors>
-    <NormalTexture file = "Interface\AddOns\Trinity GMH v1.1.0\Textures\Minimap-Button-Up"/>
-    <PushedTexture file = "Interface\AddOns\Trinity GMH v1.1.0\Textures\Minimap-Button-Down"/>
+    <NormalTexture file = "Interface\AddOns\Trinity GMH v1.2.0\Textures\Minimap-Button-Up"/>
+    <PushedTexture file = "Interface\AddOns\Trinity GMH v1.2.0\Textures\Minimap-Button-Down"/>
 	<Layers>
 		<Layer level="BACKGROUND">
 			<!--Texture name="$parent_Texture" file="Interface\AddOns\GMHelper\Textures\MMB.jpg"-->
