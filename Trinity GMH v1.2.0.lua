@@ -1,20 +1,4 @@
-﻿--**********************************************************************
---$Author: Flako $
---I have tried to leave all of the old Lua objects in here,
---Because of this the code has become rather messy.
---
---I have Edited alof of the old Lua aswell as added my own.
---My Additions should be easy to spot (comments).
---
---Original creaters in the Credits File.
---
---Thanks
---Flako
-
---Updated to Revision 1.2.0.
---**********************************************************************************
-
-chanvar = "GUILD";
+﻿chanvar = "GUILD";
 
 function OpenMain()
     if( view == 1 ) then
@@ -1251,7 +1235,7 @@ outSAY(result);
 end
 
 -- Item codes and itemsets updates by Fitz -  EOF
--- Items updated by Flako and Deser
+-- Items updated by Deser and implemented by Flako
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- LokenView
 
