@@ -1056,390 +1056,197 @@ outSAY(result);
 end
 
 function MageT10()
-   result=".additemset 883"
-    outSAY(result);
-    result=".additem 51862"
-    outSAY(result);
-    result=".additem 51918"
-    outSAY(result);
-    result=".additem 51899"
-    outSAY(result);
-    result=".additem 50609"
-    outSAY(result);
-    result=".additem 40719"
-    outSAY(result);
-    result=".additem 39193"
-    outSAY(result);
-    result=".additem 54588"
-    outSAY(result);
-    result=".additem 50726"
-    outSAY(result);
-    result=".additem 54556"
-    outSAY(result);
-    result=".additem 51838"
-    outSAY(result);
-    result=".additem 50731"
-    outSAY(result);
+addItem(51281);-- T10h
+addItem(51284);-- T10h
+addItem(51283);-- T10h
+addItem(51280);-- T10h
+addItem(51282);-- T10h
+addItem(51862);
+addItem(51918);
+addItem(51899);
+addItem(50609);
+addItem(40719);
+addItem(39193);
+addItem(54588);
+addItem(50726);
+addItem(54556);
+addItem(51838);
+addItem(50731);
 end
 
 function HunterT10()
-    result=".additemset 891"
-    outSAY(result);
-    result=".additem 51853"
-    outSAY(result);
-    result=".additem 51914"
-    outSAY(result);
-    result=".additem 54577"
-    outSAY(result);
-    result=".additem 50647"
-    outSAY(result);
-    result=".additem 51913"
-    outSAY(result);
-    result=".additem 50604"
-    outSAY(result);
-    result=".additem 50349"
-    outSAY(result);
-    result=".additem 50363"
-    outSAY(result);
-    result=".additem 51888"
-    outSAY(result);
-    result=".additem 51834"
-    outSAY(result);
-    result=".additem 50737"
-    outSAY(result);
-    result=".additem 52020 4000"   -- Bullets for gun
-    outSAY(result);
+addItem(51286);-- T10h
+addItem(51288);-- T10h
+addItem(51289);-- T10h
+addItem(51285);-- T10h
+addItem(51287);-- T10h
+addItem(51853);
+addItem(51914);
+addItem(54577);
+addItem(50647);
+addItem(51913);
+addItem(50604);
+addItem(50349);
+addItem(50363);
+addItem(51888);
+addItem(51834);
+addItem(50737);
+result=".additem 52020 4000"   -- Bullets for gun
+outSAY(result);
 end
 
 function RogueT10()
-result=".additemset 890"
-outSAY(result);
-result=".additem 50707"
-outSAY(result);
-result=".additem 54584"
-outSAY(result);
-result=".additem 50607"
-outSAY(result);
-result=".additem 54557"
-outSAY(result);
-result=".additem 50604"
-outSAY(result);
-result=".additem 51913"
-outSAY(result);
-result=".additem 50349"
-outSAY(result);
-result=".additem 50364"
-outSAY(result);
-result=".additem 51888"
-outSAY(result);
-result=".additem 51846"
-outSAY(result);
-result=".additem 51846"
-outSAY(result);
-result=".additem 51880"
-outSAY(result);
+addItem(51252);-- T10h
+addItem(51254);-- T10h
+addItem(51250);-- T10h
+addItem(51251);-- T10h
+addItem(51253);-- T10h
+addItem(50707);
+addItem(54584);
+addItem(50607);
+addItem(54557);
+addItem(50604);
+addItem(51913);
+addItem(50349);
+addItem(50364);
+addItem(51888);
+addItem(51846);
+addItem(51846);
+addItem(51880);
 end
 
 function WarlockT10()
-    result=".additemset 884"
-    outSAY(result);
-    result=".additem 51862"
-    outSAY(result);
-    result=".additem 51918"
-    outSAY(result);
-    result=".additem 51899"
-    outSAY(result);
-    result=".additem 50658"
-    outSAY(result);
-    result=".additem 51849"
-    outSAY(result);
-    result=".additem 50614"
-    outSAY(result);
-    result=".additem 50366"
-    outSAY(result);
-    result=".additem 50365"
-    outSAY(result);
-    result=".additem 54556"
-    outSAY(result);
-    result=".additem 50684"
-    outSAY(result);
-    result=".additem 50672"
-    outSAY(result);
+addItem(51231);-- T10h
+addItem(51234);-- T10h
+addItem(51233);-- T10h
+addItem(51230);-- T10h
+addItem(51232);-- T10h
+addItem(51862);
+addItem(51918);
+addItem(51899);
+addItem(50658);
+addItem(51849);
+addItem(50614);
+addItem(50366);
+addItem(50365);
+addItem(54556);
+addItem(50684);
+addItem(50672);
 end
 
 function WarriorT10f()
-result=".additem 51225"--chest t10h
-outSAY(result);
-result=".additem 51226"--hands t10h
-outSAY(result);
-result=".additem 51227"--head t10h
-outSAY(result);
-result=".additem 51228"--legs t10h
-outSAY(result);
-result=".additem 51229"--shoulder t10h
-outSAY(result);
-result=".additem 50691"
-outSAY(result);
-result=".additem 51901"
-outSAY(result);
-result=".additem 50639"
-outSAY(result);
-result=".additem 50647"
-outSAY(result);
-result=".additem 51913"
-outSAY(result);
-result=".additem 50642"
-outSAY(result);
-result=".additem 50349"
-outSAY(result);
-result=".additem 50363"
-outSAY(result);
-result=".additem 51888"
-outSAY(result);
-result=".additem 50730"
-outSAY(result);
-result=".additem 50730"
-outSAY(result);
+addItem(51225);--chest t10h
+addItem(51226);--hands t10h
+addItem(51227);--head t10h
+addItem(51228);--legs t10h
+addItem(51229);--shoulder t10h
 end
 
 function WarriorT10p()
-result=".additem 51220"--chest t10h
-outSAY(result);
-result=".additem 51221"--head t10h
-outSAY(result);
-result=".additem 51222"--hands t10h
-outSAY(result);
-result=".additem 51223"--legs t10h
-outSAY(result);
-result=".additem 51224"--shoulder t10h
-outSAY(result);
-result=".additem 50691"
-outSAY(result);
-result=".additem 51901"
-outSAY(result);
-result=".additem 50639"
-outSAY(result);
-result=".additem 50647"
-outSAY(result);
-result=".additem 51913"
-outSAY(result);
-result=".additem 50642"
-outSAY(result);
-result=".additem 50349"
-outSAY(result);
-result=".additem 50363"
-outSAY(result);
-result=".additem 51888"
-outSAY(result);
-result=".additem 50730"
-outSAY(result);
-result=".additem 50730"
-outSAY(result);
+addItem(51220);--chest t10h
+addItem(51221);--head t10h
+addItem(51222);--hands t10h
+addItem(51223);--legs t10h
+addItem(51224);--shoulder t10h
 end
-
-function ShamanT10()
-result=".additemset 893"
-outSAY(result);
-result=".additem 50671"
-outSAY(result);
-result=".additem 50687"
-outSAY(result);
-result=".additem 50652"
-outSAY(result);
-result=".additem 50658"
-outSAY(result);
-result=".additem 50720"
-outSAY(result);
-result=".additem 50614"
-outSAY(result);
-result=".additem 50366"
-outSAY(result);
-result=".additem 50348"
-outSAY(result);
-result=".additem 54556"
-outSAY(result);
-result=".additem 50672"
-outSAY(result);
-result=".additem 50695"
-outSAY(result);
-result=".additem 42579"
-outSAY(result);
+function ShamanT10e()
+addItem(51237);-- T10h
+addItem(51235);-- T10h
+addItem(51239);-- T10h
+addItem(51238);-- T10h
+addItem(51236);-- T10h
 end
-
-function PriestT10()
-    result=".additemset 886"
-    outSAY(result);
-    result=".additem 51862"
-    outSAY(result);
-    result=".additem 51918"
-    outSAY(result);
-    result=".additem 51899"
-    outSAY(result);
-    result=".additem 50609"
-    outSAY(result);
-    result=".additem 40719"
-    outSAY(result);
-    result=".additem 39193"
-    outSAY(result);
-    result=".additem 54588"
-    outSAY(result);
-    result=".additem 50365"
-    outSAY(result);
-    result=".additem 54556"
-    outSAY(result);
-    result=".additem 51838"
-    outSAY(result);
-    result=".additem 50672"
-    outSAY(result);
+function ShamanT10m()
+addItem(51242);-- T10h
+addItem(51240);-- T10h
+addItem(51244);-- T10h
+addItem(51243);-- T10h
+addItem(51241);-- T10h
 end
-
+function ShamanT10r()
+addItem(51247);-- T10h
+addItem(51245);-- T10h
+addItem(51249);-- T10h
+addItem(51248);-- T10h
+addItem(51246);-- T10h
+end
+function PriestT10h()
+addItem(51261);-- T10h
+addItem(51264);-- T10h
+addItem(51263);-- T10h
+addItem(51260);-- T10h
+addItem(51262);-- T10h
+end
+function PriestT10s()
+addItem(51255);-- T10h
+addItem(51257);-- T10h
+addItem(51259);-- T10h
+addItem(51256);-- T10h
+addItem(51258);-- T10h
+end
+function DruidT10b()
+addItem(51290);-- T10h
+addItem(51292);-- T10h
+addItem(51294);-- T10h
+addItem(51291);-- T10h
+addItem(51293);-- T10h
+function DruidT10f()
+end
+addItem(51296);-- T10h
+addItem(51299);-- T10h
+addItem(51298);-- T10h
+addItem(51295);-- T10h
+addItem(51297);-- T10h
+end
 function DruidT10h()
-result=".additemset 888"
-outSAY(result);
-result=".additem 50707"
-outSAY(result);
-result=".additem 50630"
-outSAY(result);
-result=".additem 51920"
-outSAY(result);
-result=".additem 50658"
-outSAY(result);
-result=".additem 50604"
-outSAY(result);
-result=".additem 51849"
-outSAY(result);
-result=".additem 50366"
-outSAY(result);
-result=".additem 54588"
-outSAY(result);
-result=".additem 54556"
-outSAY(result);
-result=".additem 50710"
-outSAY(result);
-result=".additem 50695"
-outSAY(result);
-result=".additem 50456"
-outSAY(result);
+addItem(51302);-- T10h
+addItem(51304);-- T10h
+addItem(51300);-- T10h
+addItem(51301);-- T10h
+addItem(51303);-- T10h
 end
-
-function DruidT10c()
-result=".additemset 888"
-outSAY(result);
-result=".additem 50707"
-outSAY(result);
-result=".additem 50630"
-outSAY(result);
-result=".additem 51920"
-outSAY(result);
-result=".additem 50658"
-outSAY(result);
-result=".additem 50604"
-outSAY(result);
-result=".additem 51849"
-outSAY(result);
-result=".additem 50366"
-outSAY(result);
-result=".additem 54588"
-outSAY(result);
-result=".additem 54556"
-outSAY(result);
-result=".additem 50710"
-outSAY(result);
-result=".additem 50695"
-outSAY(result);
-result=".additem 50456"
-outSAY(result);
+function PaladinT10h()
+addItem(51272);-- T10h
+addItem(51273);-- T10h
+addItem(51274);-- T10h
+addItem(51270);-- T10h
+addItem(51271);-- T10h
 end
-
-function DruidT10m()
-result=".additemset 888"
-outSAY(result);
-result=".additem 50707"
-outSAY(result);
-result=".additem 50630"
-outSAY(result);
-result=".additem 51920"
-outSAY(result);
-result=".additem 50658"
-outSAY(result);
-result=".additem 50604"
-outSAY(result);
-result=".additem 51849"
-outSAY(result);
-result=".additem 50366"
-outSAY(result);
-result=".additem 54588"
-outSAY(result);
-result=".additem 54556"
-outSAY(result);
-result=".additem 50710"
-outSAY(result);
-result=".additem 50695"
-outSAY(result);
-result=".additem 50456"
-outSAY(result);
+function PaladinT10t()
+addItem(51266);-- T10h
+addItem(51269);-- T10h
+addItem(51265);-- T10h
+addItem(51267);-- T10h
+addItem(51268);-- T10h
 end
-
-function PaladinT10()
-result=".additemset 901"
-outSAY(result);
-result=".additem 50691"
-outSAY(result);
-result=".additem 51901"
-outSAY(result);
-result=".additem 50639"
-outSAY(result);
-result=".additem 50647"
-outSAY(result);
-result=".additem 51913"
-outSAY(result);
-result=".additem 50642"
-outSAY(result);
-result=".additem 50349"
-outSAY(result);
-result=".additem 50363"
-outSAY(result);
-result=".additem 51888"
-outSAY(result);
-result=".additem 50672"
-outSAY(result);
-result=".additem 50729"
-outSAY(result);
-result=".additem 47664"
-outSAY(result);
+function PaladinT10d()
+addItem(51277);-- T10h
+addItem(51279);-- T10h
+addItem(51275);-- T10h
+addItem(51276);-- T10h
+addItem(51278);-- T10h
 end
-
-function DeathKnightT10()
-result=".additemset 897"
-outSAY(result);
-result=".additem 50691"
-outSAY(result);
-result=".additem 51901"
-outSAY(result);
-result=".additem 50639"
-outSAY(result);
-result=".additem 50647"
-outSAY(result);
-result=".additem 51913"
-outSAY(result);
-result=".additem 50642"
-outSAY(result);
-result=".additem 50349"
-outSAY(result);
-result=".additem 50363"
-outSAY(result);
-result=".additem 51888"
-outSAY(result);
-result=".additem 50672"
-outSAY(result);
-result=".additem 50672"
-outSAY(result);
-result=".additem 47664"
-outSAY(result);
+function DeathKnightT10d()
+addItem(51312);-- T10h
+addItem(51314);-- T10h
+addItem(51310);-- T10h
+addItem(51311);-- T10h
+addItem(51313);-- T10h
+end
+function DeathKnightT10t()
+addItem(51306);-- T10h
+addItem(51309);-- T10h
+addItem(51305);-- T10h
+addItem(51307);-- T10h
+addItem(51308);-- T10h
 end
 
 function DeathKnightT9()
 result=".additemset 872"
+outSAY(result);
+end
+function addItem(itemID)
+result=".additem "..itemID;
 outSAY(result);
 end
 
