@@ -77,7 +77,8 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>QuickItemForm:Hide(); ItemForm:Show();</OnClick>
+          <OnClick>QuickItemForm:Hide(); ItemForm:Show();
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -141,7 +142,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="181" y="-23" />
+              <AbsDimension x="176" y="-23" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -507,7 +508,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="181" y="-47" />
+              <AbsDimension x="176" y="-47" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -544,7 +545,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="181" y="-75" />
+              <AbsDimension x="176" y="-75" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -581,7 +582,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="276" y="-47" />
+              <AbsDimension x="271" y="-47" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -618,7 +619,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="276" y="-75" />
+              <AbsDimension x="271" y="-75" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -655,7 +656,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="276" y="-103" />
+              <AbsDimension x="271" y="-103" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -692,7 +693,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="371" y="-47" />
+              <AbsDimension x="366" y="-47" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -729,7 +730,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="371" y="-75" />
+              <AbsDimension x="366" y="-75" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -803,7 +804,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="371" y="-103" />
+              <AbsDimension x="366" y="-103" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -840,7 +841,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="371" y="-131" />
+              <AbsDimension x="366" y="-131" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -877,7 +878,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="276" y="-131" />
+              <AbsDimension x="271" y="-131" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -914,7 +915,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="276" y="-159" />
+              <AbsDimension x="271" y="-159" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -951,7 +952,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="181" y="-103" />
+              <AbsDimension x="176" y="-103" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -988,7 +989,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="181" y="-159" />
+              <AbsDimension x="176" y="-159" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -1025,13 +1026,49 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="181" y="-131" />
+              <AbsDimension x="176" y="-131" />
             </Offset>
           </Anchor>
         </Anchors>
         <Scripts>
           <OnClick>ShamanT10m()
 </OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+      </Button>
+      <Button name="$parentComponent26" text="GM Outfit">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="71" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="366" y="-159" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>GmOutfit()</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
