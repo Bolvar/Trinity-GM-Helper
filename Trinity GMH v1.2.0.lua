@@ -971,22 +971,14 @@ end
 --QuickItemScript
 
 function GmOutfit()
-result=".additem 2586"--Gamemaster's Robe
-outSAY(result);
-result=".additem 11508"--Gamemaster's Slippers
-outSAY(result);
-result=".additem 12064"--Gamemaster's Hood
-outSAY(result);
-result=".additem 12947"--Alex's Ring of Audacity
-outSAY(result);
-result=".additem 12947"--Alex's Ring of Audacity
-outSAY(result);
-result=".additem 192"--Martin Thunder
-outSAY(result);
-result=".additem 19879"--Alex's Test Beatdown Staff
-outSAY(result);
-result=".additem 19160"--Contest Winner's Tabbard
-outSAY(result);
+addItem(2586);--Gamemaster's Robe
+addItem(11508);--Gamemaster's Slippers
+addItem(12064);--Gamemaster's Hood
+addItem(12947);--Alex's Ring of Audacity
+addItem(12947);--Alex's Ring of Audacity
+addItem(192);--Martin Thunder
+addItem(19879);--Alex's Test Beatdown Staff
+addItem(19160);--Contest Winner's Tabbard
 result=".additem 23162 4"--Foror's Crate of Endless Resist Gear Storage
 outSAY(result);
 end
@@ -1124,14 +1116,30 @@ addItem(51226);--hands t10h
 addItem(51227);--head t10h
 addItem(51228);--legs t10h
 addItem(51229);--shoulder t10h
+addItem(54578); --feets ruby25h
+addItem(54590); --trinket ruby25h
+addItem(54581); --neck ruby25h
+addItem(54576); --ring ruby25h
+addItem(50620); --waist icc25h
+addItem(50618); --ring icc25h
+addItem("50603 2"); --mace icc25h
+addItem(50677); --back icc25h
+addItem(50659); --wrist icc25h
+addItem(50706); --trinket icc25h
+addItem(50733); --crossbow icc25h
 end
-
 function WarriorT10p()
 addItem(51220);--chest t10h
 addItem(51221);--head t10h
 addItem(51222);--hands t10h
 addItem(51223);--legs t10h
 addItem(51224);--shoulder t10h
+addItem(54579); --feets ruby25h
+addItem(54591); --trinket ruby25h
+addItem(50627); --neck icc25h
+addItem(50728); --shield icc25h
+addItem(50718); --back icc25h
+addItem(50738); --mace icc25h
 end
 function ShamanT10e()
 addItem(51237);-- T10h
@@ -1188,6 +1196,7 @@ addItem(51304);-- T10h
 addItem(51300);-- T10h
 addItem(51301);-- T10h
 addItem(51303);-- T10h
+addItem(50725); --staff icc25h
 end
 function PaladinT10h()
 addItem(51272);-- T10h
